@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\repositories\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\repositories\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Class1.cs",
-              "RelativeDocumentMoniker": "Core.Persistence\\Class1.cs",
-              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Class1.cs",
-              "RelativeToolTip": "Core.Persistence\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\Entity.cs",
+              "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\Entity.cs",
+              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\Entity.cs",
+              "RelativeToolTip": "Core.Persistence\\Repositories\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T18:44:23.635Z",
+              "WhenOpened": "2024-10-16T18:45:01.498Z",
               "EditorCaption": ""
             }
           ]
