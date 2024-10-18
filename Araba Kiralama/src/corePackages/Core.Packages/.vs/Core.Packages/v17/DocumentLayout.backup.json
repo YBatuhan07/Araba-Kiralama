@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\repositories\\iasyncrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\repositories\\iasyncrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\repositories\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\repositories\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\repositories\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\repositories\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,11 +26,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IQuery.cs",
+              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IQuery.cs",
+              "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\IQuery.cs",
+              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IQuery.cs",
+              "RelativeToolTip": "Core.Persistence\\Repositories\\IQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T16:49:47.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "Core.Persistence\\Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T16:45:52.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IAsyncRepository.cs",
+              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IAsyncRepository.cs",
+              "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\IAsyncRepository.cs",
+              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IAsyncRepository.cs",
+              "RelativeToolTip": "Core.Persistence\\Repositories\\IAsyncRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T16:00:47.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\Entity.cs",
               "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\Entity.cs",
