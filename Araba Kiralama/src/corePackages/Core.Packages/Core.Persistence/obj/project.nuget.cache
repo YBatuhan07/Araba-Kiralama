@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "N2CcYNikbSM=",
+  "dgSpecHash": "agxQLqtlles=",
   "success": true,
   "projectFilePath": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Core.Persistence.csproj",
   "expectedPackageFiles": [
@@ -72,6 +72,7 @@
     "C:\\Users\\bkesk\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\bkesk\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\bkesk\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\bkesk\\.nuget\\packages\\system.linq.dynamic.core\\1.4.6\\system.linq.dynamic.core.1.4.6.nupkg.sha512",
     "C:\\Users\\bkesk\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
     "C:\\Users\\bkesk\\.nuget\\packages\\system.net.http\\4.3.0\\system.net.http.4.3.0.nupkg.sha512",
     "C:\\Users\\bkesk\\.nuget\\packages\\system.net.nameresolution\\4.3.0\\system.net.nameresolution.4.3.0.nupkg.sha512",

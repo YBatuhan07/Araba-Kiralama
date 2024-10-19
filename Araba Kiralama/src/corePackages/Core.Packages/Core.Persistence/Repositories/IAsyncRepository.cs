@@ -1,4 +1,5 @@
-﻿using Core.Persistence.Paping;
+﻿using Core.Persistence.Dynamic;
+using Core.Persistence.Paping;
 using Microsoft.EntityFrameworkCore.Query;
 using System;
 using System.Collections.Generic;
