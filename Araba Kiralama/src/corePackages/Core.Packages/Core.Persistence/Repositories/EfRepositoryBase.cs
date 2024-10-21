@@ -1,4 +1,5 @@
 ﻿using Core.Persistence.Dynamic;
+using Core.Persistence.Paging;
 using Core.Persistence.Paping;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
@@ -14,12 +15,12 @@ using System.Threading.Tasks;
 
 namespace Core.Persistence.Repositories;
 
-public class EfRepositoryBase<TEntity,TEntityId,TContext> :
-    IAsyncRepository<TEntity,TEntityId>,IRepository<TEntity,TEntityId>
+public class EfRepositoryBase<TEntity, TEntityId, TContext>
+    : IAsyncRepository<TEntity, TEntityId>, IRepository<TEntity, TEntityId>
     where TEntity : Entity<TEntityId>
     where TContext : DbContext
 {
-    protected TContext Context;
+    protected readonly TContext Context;
 
     public EfRepositoryBase(TContext context)
     {
@@ -28,7 +29,7 @@ public class EfRepositoryBase<TEntity,TEntityId,TContext> :
 
     public async Task<TEntity> AddAsync(TEntity entity)
     {
-        entity.CreateDate = DateTime.UtcNow;
+        entity.CreatedDate = DateTime.UtcNow;
         await Context.AddAsync(entity);
         await Context.SaveChangesAsync();
         return entity;
@@ -37,12 +38,10 @@ public class EfRepositoryBase<TEntity,TEntityId,TContext> :
     public async Task<ICollection<TEntity>> AddRangeAsync(ICollection<TEntity> entities)
     {
         foreach (TEntity entity in entities)
-            entity.CreateDate = DateTime.UtcNow;
-            
+            entity.CreatedDate = DateTime.UtcNow;
         await Context.AddRangeAsync(entities);
         await Context.SaveChangesAsync();
         return entities;
-        
     }
 
     public async Task<bool> AnyAsync(Expression<Func<TEntity, bool>>? predicate = null, bool withDeleted = false, bool enableTracking = true, CancellationToken cancellationToken = default)
@@ -50,9 +49,9 @@ public class EfRepositoryBase<TEntity,TEntityId,TContext> :
         IQueryable<TEntity> queryable = Query();
         if (!enableTracking)
             queryable = queryable.AsNoTracking();
-        if(withDeleted)
+        if (withDeleted)
             queryable = queryable.IgnoreQueryFilters();
-        if(predicate != null)
+        if (predicate != null)
             queryable = queryable.Where(predicate);
         return await queryable.AnyAsync(cancellationToken);
     }
@@ -64,42 +63,75 @@ public class EfRepositoryBase<TEntity,TEntityId,TContext> :
         return entity;
     }
 
-    
-
-    public Task<ICollection<TEntity>> DeleteRangeAsync(ICollection<TEntity> entities, bool permanent = false)
+    public async Task<ICollection<TEntity>> DeleteRangeAsync(ICollection<TEntity> entities, bool permanent = false)
     {
-        throw new NotImplementedException();
+        await SetEntityAsDeletedAsync(entities, permanent);
+        await Context.SaveChangesAsync();
+        return entities;
     }
 
-    public Task<TEntity?> GetAsync(Expression<Func<TEntity, bool>> predicate, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null, bool withDeleted = false, bool enableTracking = true, CancellationToken cancellationToken = default)
+    public async Task<TEntity?> GetAsync(Expression<Func<TEntity, bool>> predicate, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null, bool withDeleted = false, bool enableTracking = true, CancellationToken cancellationToken = default)
     {
-        throw new NotImplementedException();
+        IQueryable<TEntity> queryable = Query();
+        if (!enableTracking)
+            queryable = queryable.AsNoTracking();
+        if (include != null)
+            queryable = include(queryable);
+        if (withDeleted)
+            queryable = queryable.IgnoreQueryFilters();
+        return await queryable.FirstOrDefaultAsync(predicate, cancellationToken);
     }
 
-    public Task<Paginate<TEntity>> GetListAsync(Expression<Func<TEntity, bool>>? predicate = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null, int index = 0, int size = 10, bool withDeleted = false, bool enableTracking = true, CancellationToken cancellationToken = default)
+    public async Task<Paginate<TEntity>> GetListAsync(Expression<Func<TEntity, bool>>? predicate = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null, int index = 0, int size = 10, bool withDeleted = false, bool enableTracking = true, CancellationToken cancellationToken = default)
     {
-        throw new NotImplementedException();
+        IQueryable<TEntity> queryable = Query();
+        if (!enableTracking)
+            queryable = queryable.AsNoTracking();
+        if (include != null)
+            queryable = include(queryable);
+        if (withDeleted)
+            queryable = queryable.IgnoreQueryFilters();
+        if (predicate != null)
+            queryable = queryable.Where(predicate);
+        if (orderBy != null)
+            return await orderBy(queryable).ToPaginateAsync(index, size, cancellationToken);
+        return await queryable.ToPaginateAsync(index, size, cancellationToken);
     }
 
-    public Task<Paginate<TEntity>> GetListByDynamicAsync(DynamicQuery dynamic, Expression<Func<TEntity, bool>>? predicate = null, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null, int index = 0, int size = 10, bool withDeleted = false, bool enableTracking = true, CancellationToken cancellationToken = default)
+    public async Task<Paginate<TEntity>> GetListByDynamicAsync(DynamicQuery dynamic, Expression<Func<TEntity, bool>>? predicate = null, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null, int index = 0, int size = 10, bool withDeleted = false, bool enableTracking = true, CancellationToken cancellationToken = default)
     {
-        throw new NotImplementedException();
+        IQueryable<TEntity> queryable = Query().ToDynamic(dynamic);
+        if (!enableTracking)
+            queryable = queryable.AsNoTracking();
+        if (include != null)
+            queryable = include(queryable);
+        if (withDeleted)
+            queryable = queryable.IgnoreQueryFilters();
+        if (predicate != null)
+            queryable = queryable.Where(predicate);
+        return await queryable.ToPaginateAsync(index, size, cancellationToken);
     }
 
-    public IQueryable<TEntity> Query()
+    public IQueryable<TEntity> Query() => Context.Set<TEntity>();
+
+    public async Task<TEntity> UpdateAsync(TEntity entity)
     {
-        throw new NotImplementedException();
+        entity.UpdatedDate = DateTime.UtcNow;
+        Context.Update(entity);
+        await Context.SaveChangesAsync();
+        return entity;
     }
 
-    public Task<TEntity> UpdateAsync(TEntity entity)
+    public async Task<ICollection<TEntity>> UpdateRangeAsync(ICollection<TEntity> entities)
     {
-        throw new NotImplementedException();
+        foreach (TEntity entity in entities)
+            entity.UpdatedDate = DateTime.UtcNow;
+        Context.UpdateRange(entities);
+        await Context.SaveChangesAsync();
+        return entities;
     }
 
-    public Task<ICollection<TEntity>> UpdateRangeAsync(ICollection<TEntity> entities)
-    {
-        throw new NotImplementedException();
-    }
+
     protected async Task SetEntityAsDeletedAsync(TEntity entity, bool permanent)
     {
         if (!permanent)
@@ -112,6 +144,7 @@ public class EfRepositoryBase<TEntity,TEntityId,TContext> :
             Context.Remove(entity);
         }
     }
+
     protected void CheckHasEntityHaveOneToOneRelation(TEntity entity)
     {
         bool hasEntityHaveOneToOneRelation =
@@ -129,6 +162,7 @@ public class EfRepositoryBase<TEntity,TEntityId,TContext> :
                 "Entity has one-to-one relationship. Soft Delete causes problems if you try to create entry again by same foreign key."
             );
     }
+
     private async Task setEntityAsSoftDeletedAsync(IEntityTimestamps entity)
     {
         if (entity.DeletedDate.HasValue)
@@ -178,6 +212,7 @@ public class EfRepositoryBase<TEntity,TEntityId,TContext> :
 
         Context.Update(entity);
     }
+
     protected IQueryable<object> GetRelationLoaderQuery(IQueryable query, Type navigationPropertyType)
     {
         Type queryProviderType = query.Provider.GetType();
@@ -190,5 +225,61 @@ public class EfRepositoryBase<TEntity,TEntityId,TContext> :
         var queryProviderQuery =
             (IQueryable<object>)createQueryMethod.Invoke(query.Provider, parameters: new object[] { query.Expression })!;
         return queryProviderQuery.Where(x => !((IEntityTimestamps)x).DeletedDate.HasValue);
+    }
+
+    protected async Task SetEntityAsDeletedAsync(IEnumerable<TEntity> entities, bool permanent)
+    {
+        foreach (TEntity entity in entities)
+            await SetEntityAsDeletedAsync(entity, permanent);
+    }
+
+    public TEntity? Get(Expression<Func<TEntity, bool>> predicate, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null, bool withDeleted = false, bool enableTracking = true)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Paginate<TEntity> GetList(Expression<Func<TEntity, bool>>? predicate = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null, int index = 0, int size = 10, bool withDeleted = false, bool enableTracking = true)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Paginate<TEntity> GetListByDynamic(DynamicQuery dynamic, Expression<Func<TEntity, bool>>? predicate = null, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null, int index = 0, int size = 10, bool withDeleted = false, bool enableTracking = true)
+    {
+        throw new NotImplementedException();
+    }
+
+    public bool Any(Expression<Func<TEntity, bool>>? predicate = null, bool withDeleted = false, bool enableTracking = true)
+    {
+        throw new NotImplementedException();
+    }
+
+    public TEntity Add(TEntity entity)
+    {
+        throw new NotImplementedException();
+    }
+
+    public ICollection<TEntity> AddRange(ICollection<TEntity> entities)
+    {
+        throw new NotImplementedException();
+    }
+
+    public TEntity Update(TEntity entity)
+    {
+        throw new NotImplementedException();
+    }
+
+    public ICollection<TEntity> UpdateRange(ICollection<TEntity> entities)
+    {
+        throw new NotImplementedException();
+    }
+
+    public TEntity Delete(TEntity entity, bool permanent = false)
+    {
+        throw new NotImplementedException();
+    }
+
+    public ICollection<TEntity> DeleteRange(ICollection<TEntity> entity, bool permanent = false)
+    {
+        throw new NotImplementedException();
     }
 }
