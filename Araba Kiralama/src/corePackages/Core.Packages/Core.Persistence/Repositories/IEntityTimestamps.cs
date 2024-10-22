@@ -8,8 +8,8 @@ namespace Core.Persistence.Repositories
 {
     public interface IEntityTimestamps
     {
-        DateTime CreateDate { get; set; }
-        DateTime? UpdateDate { get; set; }
+        DateTime CreatedDate { get; set; }
+        DateTime? UpdatedDate { get; set; }
         DateTime? DeletedDate { get; set; }
     }
 }

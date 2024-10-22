@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05095579-D23D-4039-B6C1-299CD7168C0A}|Application\\Application.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\rentacar\\rentacar\\application\\features\\brands\\commands\\create\\createbrandcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05095579-D23D-4039-B6C1-299CD7168C0A}|Application\\Application.csproj|solutionrelative:application\\features\\brands\\commands\\create\\createbrandcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D3DCDAF-3EA3-42F5-957A-0510697B7548}|Persistence\\Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\rentacar\\rentacar\\persistence\\entityconfigurations\\brandconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D3DCDAF-3EA3-42F5-957A-0510697B7548}|Persistence\\Persistence.csproj|solutionrelative:persistence\\entityconfigurations\\brandconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0EAD99B-A393-4F95-A53D-2153D825B736}|WebApi\\WebApi.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\rentacar\\rentacar\\webapi\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0EAD99B-A393-4F95-A53D-2153D825B736}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D3DCDAF-3EA3-42F5-957A-0510697B7548}|Persistence\\Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\rentacar\\rentacar\\persistence\\contexts\\basedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D3DCDAF-3EA3-42F5-957A-0510697B7548}|Persistence\\Persistence.csproj|solutionrelative:persistence\\contexts\\basedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0EAD99B-A393-4F95-A53D-2153D825B736}|WebApi\\WebApi.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\rentacar\\rentacar\\webapi\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0EAD99B-A393-4F95-A53D-2153D825B736}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D3DCDAF-3EA3-42F5-957A-0510697B7548}|Persistence\\Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\rentacar\\rentacar\\persistence\\persistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D3DCDAF-3EA3-42F5-957A-0510697B7548}|Persistence\\Persistence.csproj|solutionrelative:persistence\\persistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F0EAD99B-A393-4F95-A53D-2153D825B736}|WebApi\\WebApi.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\rentacar\\rentacar\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0EAD99B-A393-4F95-A53D-2153D825B736}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05095579-D23D-4039-B6C1-299CD7168C0A}|Application\\Application.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\rentacar\\rentacar\\application\\applicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05095579-D23D-4039-B6C1-299CD7168C0A}|Application\\Application.csproj|solutionrelative:application\\applicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05095579-D23D-4039-B6C1-299CD7168C0A}|Application\\Application.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\rentacar\\rentacar\\application\\features\\brands\\commands\\create\\createdbrandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05095579-D23D-4039-B6C1-299CD7168C0A}|Application\\Application.csproj|solutionrelative:application\\features\\brands\\commands\\create\\createdbrandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C691073-6C19-45AF-A256-A31C8478334A}|Domain\\Domain.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\rentacar\\rentacar\\domain\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C691073-6C19-45AF-A256-A31C8478334A}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D3DCDAF-3EA3-42F5-957A-0510697B7548}|Persistence\\Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\rentacar\\rentacar\\persistence\\repositories\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D3DCDAF-3EA3-42F5-957A-0510697B7548}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,92 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\WebApi\\Controllers\\BaseController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\BaseController.cs",
-              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\WebApi\\Controllers\\BaseController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\BaseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T20:27:14.631Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BrandsController.cs",
-              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\WebApi\\Controllers\\BrandsController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\BrandsController.cs",
-              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\WebApi\\Controllers\\BrandsController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\BrandsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T20:20:48.221Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreateBrandCommand.cs",
-              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\Application\\Features\\Brands\\Commands\\Create\\CreateBrandCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Features\\Brands\\Commands\\Create\\CreateBrandCommand.cs",
-              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\Application\\Features\\Brands\\Commands\\Create\\CreateBrandCommand.cs",
-              "RelativeToolTip": "Application\\Features\\Brands\\Commands\\Create\\CreateBrandCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T19:49:07.979Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\WebApi\\Program.cs",
-              "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\WebApi\\Program.cs*",
+              "RelativeToolTip": "WebApi\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T18:34:23.329Z"
+              "WhenOpened": "2024-10-22T20:51:09.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersistenceServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\Persistence\\PersistenceServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Persistence\\PersistenceServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\Persistence\\PersistenceServiceRegistration.cs",
+              "RelativeToolTip": "Persistence\\PersistenceServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T20:48:02.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\Persistence\\Contexts\\BaseDbContext.cs",
+              "RelativeDocumentMoniker": "Persistence\\Contexts\\BaseDbContext.cs",
+              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\Persistence\\Contexts\\BaseDbContext.cs",
+              "RelativeToolTip": "Persistence\\Contexts\\BaseDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T20:30:36.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BrandConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\Persistence\\EntityConfigurations\\BrandConfigurations.cs",
+              "RelativeDocumentMoniker": "Persistence\\EntityConfigurations\\BrandConfigurations.cs",
+              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\Persistence\\EntityConfigurations\\BrandConfigurations.cs*",
+              "RelativeToolTip": "Persistence\\EntityConfigurations\\BrandConfigurations.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T20:35:08.052Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ApplicationServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\Application\\ApplicationServiceRegistration.cs",
-              "RelativeDocumentMoniker": "Application\\ApplicationServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\Application\\ApplicationServiceRegistration.cs",
-              "RelativeToolTip": "Application\\ApplicationServiceRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Title": "BrandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\Persistence\\Repositories\\BrandRepository.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\BrandRepository.cs",
+              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\Persistence\\Repositories\\BrandRepository.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\BrandRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T20:34:34.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreatedBrandResponse.cs",
-              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\Application\\Features\\Brands\\Commands\\Create\\CreatedBrandResponse.cs",
-              "RelativeDocumentMoniker": "Application\\Features\\Brands\\Commands\\Create\\CreatedBrandResponse.cs",
-              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\Application\\Features\\Brands\\Commands\\Create\\CreatedBrandResponse.cs",
-              "RelativeToolTip": "Application\\Features\\Brands\\Commands\\Create\\CreatedBrandResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T20:00:20.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Brand.cs",
-              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\Domain\\Entities\\Brand.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Brand.cs",
-              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\rentACar\\RentACar\\Domain\\Entities\\Brand.cs",
-              "RelativeToolTip": "Domain\\Entities\\Brand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T18:30:17.883Z"
+              "WhenOpened": "2024-10-22T20:41:56.036Z",
+              "EditorCaption": ""
             }
           ]
         }

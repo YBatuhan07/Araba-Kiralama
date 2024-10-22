@@ -9,3 +9,4 @@ C:\Users\bkesk\Desktop\Araba Kiralama\src\corePackages\Core.Packages\Core.Persis
 C:\Users\bkesk\Desktop\Araba Kiralama\src\corePackages\Core.Packages\Core.Persistence\obj\Debug\net8.0\refint\Core.Persistence.dll
 C:\Users\bkesk\Desktop\Araba Kiralama\src\corePackages\Core.Packages\Core.Persistence\obj\Debug\net8.0\Core.Persistence.pdb
 C:\Users\bkesk\Desktop\Araba Kiralama\src\corePackages\Core.Packages\Core.Persistence\obj\Debug\net8.0\ref\Core.Persistence.dll
+C:\Users\bkesk\Desktop\Araba Kiralama\src\corePackages\Core.Packages\Core.Persistence\obj\Debug\net8.0\Core.Persistence.csproj.AssemblyReference.cache

@@ -3,40 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\repositories\\efrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\repositories\\efrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\repositories\\ientitytimestamps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\repositories\\ientitytimestamps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\dynamic\\iqueryabledynamicfilterextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\dynamic\\iqueryabledynamicfilterextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\repositories\\iasyncrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\repositories\\iasyncrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\repositories\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\repositories\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\dynamic\\dynamicquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\dynamic\\dynamicquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\dynamic\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\dynamic\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\dynamic\\sort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\dynamic\\sort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\repositories\\efrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\repositories\\efrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\paping\\paginate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,8 +23,20 @@
       "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\paping\\iquearyablepaginateextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\repositories\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\repositories\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\dynamic\\sort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\dynamic\\sort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\dynamic\\iqueryabledynamicfilterextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\dynamic\\iqueryabledynamicfilterextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\dynamic\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\dynamic\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\bkesk\\desktop\\araba kiralama\\src\\corepackages\\core.packages\\core.persistence\\dynamic\\dynamicquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1158B9-9C37-4638-AF34-B25110199DAD}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\dynamic\\dynamicquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,64 +51,93 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EfRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\EfRepositoryBase.cs",
-              "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\EfRepositoryBase.cs",
-              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\EfRepositoryBase.cs",
-              "RelativeToolTip": "Core.Persistence\\Repositories\\EfRepositoryBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T19:29:17.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IQueryableDynamicFilterExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Dynamic\\IQueryableDynamicFilterExtensions.cs",
-              "RelativeDocumentMoniker": "Core.Persistence\\Dynamic\\IQueryableDynamicFilterExtensions.cs",
-              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Dynamic\\IQueryableDynamicFilterExtensions.cs",
-              "RelativeToolTip": "Core.Persistence\\Dynamic\\IQueryableDynamicFilterExtensions.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwBcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T19:18:04.399Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IAsyncRepository.cs",
-              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IAsyncRepository.cs",
-              "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\IAsyncRepository.cs",
-              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IAsyncRepository.cs",
-              "RelativeToolTip": "Core.Persistence\\Repositories\\IAsyncRepository.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAtwAwAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T16:00:47.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IRepository.cs",
-              "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\IRepository.cs",
-              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IRepository.cs",
-              "RelativeToolTip": "Core.Persistence\\Repositories\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T16:45:52.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "IEntityTimestamps.cs",
               "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IEntityTimestamps.cs",
               "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\IEntityTimestamps.cs",
               "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IEntityTimestamps.cs",
               "RelativeToolTip": "Core.Persistence\\Repositories\\IEntityTimestamps.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T19:27:11.875Z"
+              "WhenOpened": "2024-10-22T20:26:23.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Paginate.cs",
+              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Paping\\Paginate.cs",
+              "RelativeDocumentMoniker": "Core.Persistence\\Paping\\Paginate.cs",
+              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Paping\\Paginate.cs",
+              "RelativeToolTip": "Core.Persistence\\Paping\\Paginate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T20:25:25.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IQuearyablePaginateExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Paping\\IQuearyablePaginateExtensions.cs",
+              "RelativeDocumentMoniker": "Core.Persistence\\Paping\\IQuearyablePaginateExtensions.cs",
+              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Paping\\IQuearyablePaginateExtensions.cs",
+              "RelativeToolTip": "Core.Persistence\\Paping\\IQuearyablePaginateExtensions.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T20:25:21.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sort.cs",
+              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Dynamic\\Sort.cs",
+              "RelativeDocumentMoniker": "Core.Persistence\\Dynamic\\Sort.cs",
+              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Dynamic\\Sort.cs",
+              "RelativeToolTip": "Core.Persistence\\Dynamic\\Sort.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T20:25:20.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EfRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\EfRepositoryBase.cs",
+              "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\EfRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\EfRepositoryBase.cs",
+              "RelativeToolTip": "Core.Persistence\\Repositories\\EfRepositoryBase.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T20:16:05.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\Entity.cs",
+              "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\Entity.cs",
+              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\Entity.cs",
+              "RelativeToolTip": "Core.Persistence\\Repositories\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T20:16:06.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IQueryableDynamicFilterExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Dynamic\\IQueryableDynamicFilterExtensions.cs",
+              "RelativeDocumentMoniker": "Core.Persistence\\Dynamic\\IQueryableDynamicFilterExtensions.cs",
+              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Dynamic\\IQueryableDynamicFilterExtensions.cs",
+              "RelativeToolTip": "Core.Persistence\\Dynamic\\IQueryableDynamicFilterExtensions.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAswBEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T20:25:09.93Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -130,81 +147,23 @@
               "RelativeDocumentMoniker": "Core.Persistence\\Dynamic\\Filter.cs",
               "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Dynamic\\Filter.cs",
               "RelativeToolTip": "Core.Persistence\\Dynamic\\Filter.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T19:04:16.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Entity.cs",
-              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\Entity.cs",
-              "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\Entity.cs",
-              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\Entity.cs",
-              "RelativeToolTip": "Core.Persistence\\Repositories\\Entity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T18:45:01.498Z"
+              "WhenOpened": "2024-10-22T20:25:07.929Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Sort.cs",
-              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Dynamic\\Sort.cs",
-              "RelativeDocumentMoniker": "Core.Persistence\\Dynamic\\Sort.cs",
-              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Dynamic\\Sort.cs",
-              "RelativeToolTip": "Core.Persistence\\Dynamic\\Sort.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T19:07:58.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "DynamicQuery.cs",
               "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Dynamic\\DynamicQuery.cs",
               "RelativeDocumentMoniker": "Core.Persistence\\Dynamic\\DynamicQuery.cs",
               "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Dynamic\\DynamicQuery.cs",
               "RelativeToolTip": "Core.Persistence\\Dynamic\\DynamicQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T19:10:29.058Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Paginate.cs",
-              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Paping\\Paginate.cs",
-              "RelativeDocumentMoniker": "Core.Persistence\\Paping\\Paginate.cs",
-              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Paping\\Paginate.cs",
-              "RelativeToolTip": "Core.Persistence\\Paping\\Paginate.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAswAwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T18:15:17.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IQuearyablePaginateExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Paping\\IQuearyablePaginateExtensions.cs",
-              "RelativeDocumentMoniker": "Core.Persistence\\Paping\\IQuearyablePaginateExtensions.cs",
-              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Paping\\IQuearyablePaginateExtensions.cs",
-              "RelativeToolTip": "Core.Persistence\\Paping\\IQuearyablePaginateExtensions.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAADwvy0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T18:22:00.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IQuery.cs",
-              "DocumentMoniker": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IQuery.cs",
-              "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\IQuery.cs",
-              "ToolTip": "C:\\Users\\bkesk\\Desktop\\Araba Kiralama\\src\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IQuery.cs",
-              "RelativeToolTip": "Core.Persistence\\Repositories\\IQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T16:49:47.523Z"
+              "WhenOpened": "2024-10-22T20:25:05.839Z",
+              "EditorCaption": ""
             }
           ]
         }

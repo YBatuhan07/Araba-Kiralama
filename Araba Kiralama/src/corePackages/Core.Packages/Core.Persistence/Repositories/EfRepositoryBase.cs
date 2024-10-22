@@ -1,17 +1,11 @@
 ﻿using Core.Persistence.Dynamic;
-using Core.Persistence.Paging;
 using Core.Persistence.Paping;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Query;
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Core.Persistence.Repositories;
 
